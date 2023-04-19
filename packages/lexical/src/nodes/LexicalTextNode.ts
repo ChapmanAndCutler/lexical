@@ -37,6 +37,7 @@ import {
   IS_HIGHLIGHT,
   IS_ITALIC,
   IS_SEGMENTED,
+  IS_SMALL_CAPS,
   IS_STRIKETHROUGH,
   IS_SUBSCRIPT,
   IS_SUPERSCRIPT,
@@ -86,6 +87,7 @@ export type TextFormatType =
   | 'italic'
   | 'highlight'
   | 'code'
+  | 'smallcaps'
   | 'subscript'
   | 'superscript';
 

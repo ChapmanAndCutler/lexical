@@ -44,6 +44,7 @@ export const IS_CODE = 1 << 4;
 export const IS_SUBSCRIPT = 1 << 5;
 export const IS_SUPERSCRIPT = 1 << 6;
 export const IS_HIGHLIGHT = 1 << 7;
+export const IS_SMALL_CAPS = 1 << 10;
 
 export const IS_ALL_FORMATTING =
   IS_BOLD |
@@ -53,7 +54,8 @@ export const IS_ALL_FORMATTING =
   IS_CODE |
   IS_SUBSCRIPT |
   IS_SUPERSCRIPT |
-  IS_HIGHLIGHT;
+  IS_HIGHLIGHT |
+  IS_SMALL_CAPS;
 
 // Text node details
 export const IS_DIRECTIONLESS = 1;
